@@ -1,0 +1,125 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Oswald";
+}
+
+.navbarSection {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background-color: #30353c;
+  border-bottom: 3px solid #ababab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarArea {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.navLinks {
+ display: flex;
+ margin-left: 10rem;
+ padding: 0;
+
+}
+
+.navLinks li {
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  padding: 40px;
+}
+
+.navLinks li a:hover {
+  color: #ffc05a;
+  transition: 0.5s;
+  
+}
+
+.navLinks i {
+  padding: 5px;
+}
+
+.navLinks a {
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.searchArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchArea input {
+  width: 200px;
+  height: 25px;
+  border: none;
+  outline: none;
+  background-color: #2e2f32;
+  color: #FFF;
+  border-radius: 4px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 30px;
+  font-size: 11px;
+}
+
+.searchArea button {
+  position: absolute;
+  right: 22%;
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  background-color: #2e2f32;
+  color: #FFF;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barSearch {
+  width: 2px;
+  height: 25px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.cartArea {
+  position: relative;
+  margin-right: 40px;
+
+}
+
+.cartArea a {
+  text-decoration: none;
+}
+.cartArea i {
+  color: #FFF;
+  font-size: 21px;
+}
+
+
+.hamburger {
+  display: none;
+}
+
